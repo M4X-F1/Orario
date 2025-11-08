@@ -2,89 +2,133 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <title>Orario 5^IT</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #000; padding: 6px; text-align: center; }
-    th { background: #ddd; }
-    caption { font-weight: bold; margin-bottom: 8px; }
-    footer { margin-top: 20px; text-align: center; font-size: 0.9em; color: #555; }
+    body { 
+      font-family: Arial, sans-serif; 
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    table { 
+      border-collapse: collapse; 
+      width: 100%;
+      max-width: 500px;
+    }
+    th, td { 
+      border: 1px solid #000; 
+      padding: 8px; 
+      text-align: center; 
+      white-space: nowrap;
+    }
+    th { 
+      background: #ddd; 
+    }
+    h2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
 
-  <!--<iframe src="manutenzione.html" width="100%" height="500px" style="border:none;"> -->
+<h2>Orario - 5^IT</h2>
 
-<h2 align="center"> <br> Orario - 5^IT</h2>
-<br>
-<table>
-  <tr>
-    <th>Ora</th>
-    <th>Lunedì</th>
-    <th>Martedì</th>
-    <th>Mercoledì</th>
-    <th>Giovedì</th>
-    <th>Venerdì</th>
-    <th>Sabato</th>
-  </tr>
-  <tr>
-    <td>1° - 8:25 - 9:15</td>
-    <td>Lettere</td>
-    <td>Inglese</td>
-    <td>GPOI</td>
-    <td>Sistemi e Reti - Teoria</td>
-    <td>Sistemi e Reti - Lab</td>
-    <td>Lettere</td>
-  </tr>
-  <tr>
-    <td>2° - 9:15 - 10:05</td>
-    <td>Religione</td>
-    <td>Matematica</td>
-    <td>Matematica</td>
-    <td>Sistemi e Reti - Teoria</td>
-    <td>Sistemi e Reti - Lab</td>
-    <td>Lettere</td>
-  </tr>
-  <tr>
-    <td>3° - 10:05 - 10:50 <br> Ricreazione 15 Min</td>
-    <td>Inglese</td>
-    <td>Info - Teoria</td>
-    <td>Ginnastica</td>
-    <td>GPOI - Lab</td>
-    <td>Sistemi e Reti - Lab</td>
-    <td>Matematica</td>
-  </tr>
-  <tr>
-    <td>4° - 11:05 - 11:50</td>
-    <td>Info - Lab</td>
-    <td>Info - Teoria</td>
-    <td>Ginnastica</td>
-    <td>GPOI - Lab</td>
-    <td>TPSIT - Teoria</td>
-    <td>Matematica</td>
-  </tr>
-  <tr>
-    <td>5° - 11:50 - 12:40</td>
-    <td>Info - Lab</td>
-    <td>TPSIT - Lab</td>
-    <td>Inglese</td>
-    <td>TPSIT</td>
-    <td>Lettere</td>
-  </tr>
-  <tr>
-    <td>6° - 12:40 - 13:25</td>
-    <td>Info - Lab</td>
-    <td>TPSIT - Lab</td>
-    <td>Lettere</td>
-    <td>Info - Teoria</td>
-    <td>Lettere</td>
-  </tr>
-</table>
+<div class="container">
+  <div>
+    <table>
+      <tr>
+        <th>Ora</th>
+        <th>Lunedì</th>
+        <th>Martedì</th>
+        <th>Mercoledì</th>
+        <th>Giovedì</th>
+        <th>Venerdì</th>
+      </tr>
+      <tr>
+        <td>1° - 8:25 - 9:15</td>
+        <td>Lettere</td>
+        <td>Inglese</td>
+        <td>GPOI</td>
+        <td>Sistemi e Reti - Teoria</td>
+        <td>Sistemi e Reti - Lab</td>
+      </tr>
+      <tr>
+        <td>2° - 9:15 - 10:05</td>
+        <td>Religione</td>
+        <td>Matematica</td>
+        <td>Matematica</td>
+        <td>Sistemi e Reti - Teoria</td>
+        <td>Sistemi e Reti - Lab</td>
+      </tr>
+      <tr>
+        <td>3° - 10:05 - 10:50 <br> Ricreazione 15 Min</td>
+        <td>Inglese</td>
+        <td>Info - Teoria</td>
+        <td>Ginnastica</td>
+        <td>GPOI - Lab</td>
+        <td>Sistemi e Reti - Lab</td>
+      </tr>
+      <tr>
+        <td>4° - 11:05 - 11:50</td>
+        <td>Info - Lab</td>
+        <td>Info - Teoria</td>
+        <td>Ginnastica</td>
+        <td>GPOI - Lab</td>
+        <td>TPSIT - Teoria</td>
+      </tr>
+      <tr>
+        <td>5° - 11:50 - 12:40</td>
+        <td>Info - Lab</td>
+        <td>TPSIT - Lab</td>
+        <td>Inglese</td>
+        <td>TPSIT</td>
+        <td>Lettere</td>
+      </tr>
+      <tr>
+        <td>6° - 12:40 - 13:25</td>
+        <td>Info - Lab</td>
+        <td>TPSIT - Lab</td>
+        <td>Lettere</td>
+        <td>Info - Teoria</td>
+        <td>Lettere</td>
+      </tr>
+    </table>
+  </div>
 
-<footer>
-  <small>Designed By L.C.</small>
-</footer>
-  <!--</iframe> -->
+  <div>
+    <table>
+      <tr>
+        <th>Ora</th>
+        <th>Sabato</th>
+      </tr>
+      <tr>
+        <td>1° - 8:25 - 9:25</td>
+        <td>Lettere</td>
+      </tr>
+      <tr>
+        <td>2° - 9:25 - 10:25 <br> Ricreazione 15 Min</td>
+        <td>Lettere</td>
+      </tr>
+      <tr>
+        <td>3° - 10:40 - 11:30</td>
+        <td>Matematica</td>
+      </tr>
+      <tr>
+        <td>4° - 11:30 - 12:15</td>
+        <td>Matematica</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 </body>
 </html>
